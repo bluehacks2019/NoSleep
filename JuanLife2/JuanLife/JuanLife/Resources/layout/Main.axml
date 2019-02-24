@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:padding="3px"
+	android:background="@android:color/holo_orange_light">
+	<Button
+		android:text="Admin"
+		android:layout_width="170px"
+		android:layout_height="90px"
+		android:layout_marginLeft="5dp"
+		android:layout_marginTop="5dp"
+		android:id="@+id/btnadmin"
+		android:textColor="@android:color/background_light"
+		android:background="@color/design_snackbar_background_color" />
+	<ImageView
+		android:src="@drawable/asdasd"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/imageView1" />
+	<Button
+		android:text="Search"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5sp"
+		android:layout_marginLeft="35sp"
+		android:layout_marginRight="35sp"
+		android:id="@+id/btnSearch"
+		android:textColor="@android:color/background_light"
+		android:background="@color/design_snackbar_background_color"/>
+
+	<Button
+		android:text="Ask Marcky"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5sp"
+		android:layout_marginLeft="35sp"
+		android:layout_marginRight="35sp"
+		android:id="@+id/btnAsk"
+		android:textColor="@android:color/background_light"
+		android:background="@color/design_snackbar_background_color"/>
+	<Button
+		android:text="Use Marcky Hearing"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5sp"
+		android:layout_marginLeft="35sp"
+		android:layout_marginRight="35sp"
+		android:id="@+id/btnSpeech"
+		android:textColor="@android:color/background_light"
+		android:background="@color/design_snackbar_background_color"/>
+</LinearLayout>

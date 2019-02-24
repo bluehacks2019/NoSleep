@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+    android:layout_width="match_parent"
+	android:gravity="center"
+    android:layout_height="match_parent"
+	android:padding="10sp"
+	android:background="@android:color/holo_orange_light">
+	<ImageView
+		android:src="@drawable/asdasd"
+		android:layout_marginTop="-100dp"
+		android:layout_marginBottom="5dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/imageView1" />
+	<Button
+		android:text="Diet"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/btndiet" 
+		android:textColor="@android:color/background_light"
+		android:background="@color/design_snackbar_background_color"
+		android:layout_marginBottom="5sp"/>
+	<Button
+		android:text="Work-out"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/btnexe" 
+		android:textColor="@android:color/background_light"
+		android:background="@color/design_snackbar_background_color"/>
+
+</LinearLayout>
